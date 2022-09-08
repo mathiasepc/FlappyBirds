@@ -1,7 +1,7 @@
 # Opgave4
 Har lavet en mindre udgave af flappybirds
 
-Jeg ville have en form for mønt indsamling, hvorfor der står coinudvidelse.
+Jeg ville have en form for mønt indsamling, hvorfor der står coinudvidelse, under mappen Java.
 
 Jeg havde nogen problemer med at få det til at virke, og det ikke alt koden som jeg havde, som er med.
 
