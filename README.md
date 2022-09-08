@@ -7,3 +7,7 @@ Jeg havde nogen problemer med at få det til at virke, og det ikke alt koden som
 
 Jeg havde en teori omkring, at spillet opbygning gjord det svært for mig selv. Så vidt jeg forstod, pga. jeg startede med at bruge transform,
 var det ikke koordinater jeg fik ud men et andet tal. Kunne ikke regne ud hvordan jeg kunne få koordinater ud istedet for.
+
+
+ScoreBoardet virker ikke ordenligt endnu. Der er en fejl, når man har kørt spillet igennem engang, så starter scoren på 1. 
+Jeg har en ide om, at det er fordi at mine sprites stadig bevæger sig.
