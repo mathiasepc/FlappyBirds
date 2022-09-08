@@ -1,0 +1,110 @@
+#game{
+    /*spillets ramme*/
+    width: 550px;
+    height: 500px;
+
+    /*Laver væggen*/
+    border: 1px solid black ;
+    
+    /*placerer spillet i midten af skærmen*/
+    margin: auto;
+
+    /*Jeg laver overflow hidden for at alt bliver på mappet.*/
+    overflow: hidden;
+}
+
+/*opretter en keyframes for den automatiske bevægelse på mappet.*/
+@keyframes movement {
+    /*den skal starte i højre side*/
+    0%{left: 700px}
+    /*den skal gå mod venstre*/
+    100%{left: -70px;}
+}
+
+/*Laver min væg*/
+#block{
+    /*gør det muligt at rykke på elementet.*/
+    position: relative;
+    
+    /*udseende for væggen*/
+    width: 70px;
+    height: 500px;
+    background-color: black;
+
+    /*indstillinger for movement.*/
+    animation: movement 6s infinite linear;
+}
+
+/*laver mit hul i væggen*/
+#hole{
+    /*gør det muligt at rykke på elementet*/
+    position: relative;
+    
+    /*udseende for hullet*/
+    background-color: white;
+    width: 70px;
+    height: 150px;
+
+    /*hullets start sted på y-aksen*/
+    top: -500px;
+
+    /*indstillinger for movement.*/
+    animation: movement 6s infinite linear;
+}
+
+/*Laver min character*/
+#character{
+    /*Laver borderne for min figur*/
+    background-color: red;
+
+    /*Så man kan rykke rundt på figuren*/
+    position: absolute;
+
+    /*Laver størrelsen på figuren*/
+    width: 40px;
+    height: 40px;
+
+    /*Laver den rund*/
+    border-radius: 100px;
+}
+
+.highscore{
+    width: 200px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+/*opretter en keyframes for den automatiske bevægelse på mappet.
+@keyframes movementCoin {
+    /*den skal starte i højre side
+    0%{left: 700px}
+    /*den skal gå mod venstre
+    100%{left: -70px;}
+}
+*/
+
+/*Laver min mønt
+#coin{  
+    /*gør det muligt at flytte elementet
+    position: relative;
+
+    /*udseende for coin
+    background-color:gold;
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+
+    /*Start placering for x og y-aksen
+    left: 16px;
+    top: -250px;
+
+    /*indstillinger for movement.
+}
+*/
+
+
+
+
+
+
