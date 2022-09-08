@@ -1,4 +1,4 @@
-# Opgave4
+# FlappyBirds
 Har lavet en mindre udgave af flappybirds
 
 Jeg ville have en form for mønt indsamling, hvorfor der står coinudvidelse, under mappen Java.
