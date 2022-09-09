@@ -7,7 +7,7 @@ block.addEventListener('animationiteration', () =>{
 });
 
 /*Laver en reset for mit scoreboard */
-function CheckScoreBoard(){
+function CheckScoreBoard(death){
     scoreBoard = 0
     /*Har problemer med at visuelt at sætte highscore til 0 efter død. Men den er nul selvom der står 1. */
     scoreBoard += -scoreBoard;
