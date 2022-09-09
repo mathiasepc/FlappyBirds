@@ -1,4 +1,9 @@
 # FlappyBirds
+
+**!! VIGTIG INFO.
+Jeg har problemer med visuelt at reset highscoren. Men den bliver reset i systemet.
+!!**
+
 Har lavet en mindre udgave af flappybirds
 
 Jeg ville have en form for mønt indsamling, hvorfor der står coinudvidelse, under mappen Java.
