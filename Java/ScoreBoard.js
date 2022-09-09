@@ -6,9 +6,10 @@ block.addEventListener('animationiteration', () =>{
     document.getElementById('scoreboard').innerHTML = 'Din highscore er: ' + ++scoreBoard;
 });
 
-
+/*Laver en reset for mit scoreboard */
 function CheckScoreBoard(){
     scoreBoard = 0
+    /*Har problemer med at visuelt at sætte highscore til 0 efter død. Men den er nul selvom der står 1. */
     scoreBoard += -scoreBoard;
     if(scoreBoard >= 1 && death == true){
         document.getElementById('scoreboard').innerHTML = 'Din highscore er: ' + scoreBoard;
