@@ -6,11 +6,13 @@ setInterval(() =>{
     parseInt(window.getComputedStyle(character).getPropertyValue('top'));
     
     /*Jeg matcher op med spilletsgrænse som er sat statisk. 669=top og 14=bunden.*/
-    if(characterTop>470 || characterTop<14){
+    if(characterTop>470 || characterTop<10){
+        death = true;
+        CheckScoreBoard(death);
         character.style.top = 100 + 'px';
-        scoreBoard = 0;
         alert("Game Over.");
     }
+    death = false;
 },10);
 
 /*Collision væg og lave hul.*/
@@ -30,9 +32,12 @@ setInterval(() =>{
 
     /*holeTop+110 fordi jeg plusser med 110 er pga. hullet er 100px og characteren er 40px
     characteren kommer til at tage noget pixel*/
-    if(((wallLeft<57) && ((cBottom<holeTop) || (cBottom>holeTop+115)))){
+    if(((wallLeft<56) && ((cBottom<holeTop) || (cBottom>holeTop+110)))){
+        death = true;
+        CheckScoreBoard(death);
         character.style.top = 350 + 'px';
-        scoreBoard = 0;
         alert("Game Over.");
     } 
+    death = false;
 },10);
+

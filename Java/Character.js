@@ -4,13 +4,17 @@ var jump = 0;
 /*Laver en checker for om man hopper for at gøre hoppet i spillet mere smooth.*/
 var checkJump = false;
 
+/*Tilføjer en død function sådan så jeg kan få reset min highscore */
+var death = false;
+
+/*fungere lidt som en constructor for hele mit spil. */
 window.onload = function(){
     /*placering på mappet*/
     character.style.left = 540 + 'px';
     character.style.top = 100 + 'px';
 
-    /*Når spil stopper, sæt scorer på load.*/
-    document.getElementById('scoreboard').innerHTML = scoreBoard = 'Din highscore er: ' + 0;
+    /*Laver udprint af scorer.*/
+    document.getElementById('scoreboard').innerHTML = 'Din highscore er: ' + scoreBoard;
 }
 
 /*Jeg laver tyngdekræften */
