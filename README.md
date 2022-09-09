@@ -1,8 +1,8 @@
 # FlappyBirds
 
-** VIGTIG INFO.
+**!1 VIGTIG INFO.
 Jeg har problemer med visuelt at reset highscoren. Men den bliver reset i systemet.
-Hitboksene er også lidt bugget. Men fik lavet et spil som virker.**
+Hitboksene er også lidt bugget. Men fik lavet et spil som virker.!!**
 
 Har lavet en mindre udgave af flappybirds
 
