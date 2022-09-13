@@ -4,7 +4,7 @@
 Jeg har problemer med visuelt at reset highscoren. Men den bliver reset i systemet.
 Hitboksene er også lidt bugget. Men fik lavet et spil som virker.!!**
 
-**!!Det lave ttil en chrome browser!!**
+**!!Det lavet til en chrome browser Version 105.0.5195.102!!**
 
 Har lavet en mindre udgave af flappybirds
 
